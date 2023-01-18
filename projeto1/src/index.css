@@ -1,0 +1,5 @@
+html{
+  background: #0F2027;  /* fallback for old browsers */
+  background: linear-gradient(90deg, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(90deg, #2C5364, #203A43, #0F2027); /* W3C, IE 120+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
