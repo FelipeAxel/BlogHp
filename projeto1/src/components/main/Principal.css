@@ -1,4 +1,5 @@
-h2,h1 {
+h2,
+h1 {
     font-family: 'Qwitcher Grypen', cursive;
     display: flex;
     justify-content: space-around;
@@ -10,7 +11,7 @@ h2,h1 {
         url("../../assets/img/background-container-artigos.jpeg");
     width: 60vh;
     color: var(--text-color);
-   
+
 }
 
 .container-sonserina {
@@ -18,7 +19,7 @@ h2,h1 {
         url("../../assets/img/background-container-artigos.jpeg");
     width: 60vh;
     color: var(--text-color);
-   
+
 }
 
 .container-lufa-lufa {
@@ -26,7 +27,7 @@ h2,h1 {
         url("../../assets/img/background-container-artigos.jpeg");
     width: 60vh;
     color: var(--text-color);
-  
+
 }
 
 .container-grifinoria {
@@ -34,22 +35,22 @@ h2,h1 {
         url("../../assets/img/background-container-artigos.jpeg");
     width: 60vh;
     color: var(--text-color);
-   
+
 }
 
 
-.coluna-principal{
+.coluna-principal {
+    justify-items: center;
     padding: 10px;
-    margin-left: 25vh;
     text-align: center;
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(600px, 2fr));
 }
 
-@media screen and (max-device-width: 200) {
-        coluna-principal{
-            height:  100%;
-        }
+@media screen and (max-width:768px ) {
+    coluna-principal,container-sonser200pxina, container-lufa-lufa, container-grifinoria {
+        margin-left: 100%;
+        padding: 0;
     }
+}

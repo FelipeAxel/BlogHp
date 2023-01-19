@@ -2,3 +2,9 @@
     background: rgb(2, 0, 36);
     background: linear-gradient(246deg, rgba(2, 0, 36, 1) 0%, rgba(20, 34, 80, 1) 58%, rgba(0, 212, 255, 1) 100%);
 }
+
+@media screen and (max-width: 400px) {
+    nav{
+        width: 100%;
+    }
+}
