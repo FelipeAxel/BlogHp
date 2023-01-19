@@ -1,11 +1,12 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import NavBar from './components/Navbar/Navbar';
+import Principal from './components/main/Principal';
 function App() {
   return (
     <div className="App">
-      <h1>Juro solenemente não fazer nada de bom!</h1>
       <NavBar/>
+      <Principal/>
     </div>
   );
 }

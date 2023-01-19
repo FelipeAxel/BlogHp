@@ -1,0 +1,9 @@
+h1 {
+    font-family: 'Qwitcher Grypen', cursive;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+}
