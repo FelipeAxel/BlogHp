@@ -47,3 +47,9 @@ h2,h1 {
     grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
 
 }
+
+@media screen and (max-device-width: 200) {
+        coluna-principal{
+            height:  100%;
+        }
+    }
