@@ -1,9 +1,49 @@
-h1 {
+h2,h1 {
     font-family: 'Qwitcher Grypen', cursive;
-    background-position: center;
-    background-size: cover;
     display: flex;
     justify-content: space-around;
-    align-items: center;
     color: var(--text-color);
+}
+
+.container-corvinal {
+    background: linear-gradient(rgb(0, 9, 131), rgba(26, 17, 17, 0)),
+        url("../../assets/img/background-container-artigos.jpeg");
+    width: 60vh;
+    color: var(--text-color);
+   
+}
+
+.container-sonserina {
+    background: linear-gradient(rgb(2, 179, 40), rgba(26, 17, 17, 0)),
+        url("../../assets/img/background-container-artigos.jpeg");
+    width: 60vh;
+    color: var(--text-color);
+   
+}
+
+.container-lufa-lufa {
+    background: linear-gradient(rgb(157, 184, 6), rgba(26, 17, 17, 0)),
+        url("../../assets/img/background-container-artigos.jpeg");
+    width: 60vh;
+    color: var(--text-color);
+  
+}
+
+.container-grifinoria {
+    background: linear-gradient(rgba(255, 27, 27, 0.795), rgba(26, 17, 17, 0)),
+        url("../../assets/img/background-container-artigos.jpeg");
+    width: 60vh;
+    color: var(--text-color);
+   
+}
+
+
+.coluna-principal{
+    padding: 10px;
+    margin-left: 25vh;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+
 }
