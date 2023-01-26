@@ -4,11 +4,12 @@
 
 
 html, body{
+  font-family: 'Qwitcher Grypen', cursive;
   background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
    url("./assets/img/4NwstUc.jpg");
    background-position: center;
    background-size: cover;
-   height: 70vh;
+   height: 90vh;
    margin: 0px;
    
   }
